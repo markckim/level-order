@@ -1,13 +1,3 @@
-// mergesort
-// strategy:
-// use recursion:
-// (1) define left and right sides of unsorted array
-// (2) mergesort left sub-array, mergesort right sub-array
-// (3) merge the two sorted sub-arrays
-// define termination cases for recursion:
-// if array contains only one item, it's already sorted => return array containing one item
-// if array is empty, it's already sorted => return empty array
-
 func merge(_ sortedArr1: [Int], _ sortedArr2: [Int]) -> [Int] {
     var sortedArr = [Int]()
     var iter1 = 0
